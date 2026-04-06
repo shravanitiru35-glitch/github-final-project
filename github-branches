@@ -1,0 +1,9 @@
+git fetch --all
+Fetching origin
+$ git branch -a -v
+main                abc1234 [origin/main] Merge branch 'bug-fix-typo' into main
+  bug-fix-typo        def5678 Fixed typo in README.md
+  bug-fix-revert      ghi9012 Reverted changes from bug-fix-typo
+  remotes/origin/main
+  remotes/origin/bug-fix-typo
+  remotes/origin/bug-fix-revert
